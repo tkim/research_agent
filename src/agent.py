@@ -17,7 +17,8 @@ class ResearchAgent:
         """
         Runs the research agent.
         """
-        hypothesis = self.hypothesizer.generate()
+        research_topic = "deforestation"
+        hypothesis = self.hypothesizer.generate(research_topic)
         experiment = self.experiment_designer.design(hypothesis)
         data_path = "data/sample_data.csv"
         analysis = self.data_analyzer.analyze(data_path)

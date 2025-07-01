@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Research Agent
 
 This project is a simplified implementation of a research agent based on the paper "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery". The agent is designed to automate the process of scientific discovery, from hypothesis generation to manuscript creation.
@@ -19,7 +18,22 @@ To get started with this project, you will need to have Python 3 and pip install
     pip install -r requirements.txt
     ```
 
-3.  **Run the agent:**
+3.  **Set up Firecrawl API Key (Optional but Recommended for Web Scraping):**
+    The `Hypothesizer` component can simulate web content fetching using [Firecrawl.dev](https://firecrawl.dev/). To enable this functionality, you need to obtain a free API key from their website and set it as an environment variable.
+
+    -   Get your API key from [firecrawl.dev](https://firecrawl.dev/).
+    -   Set the environment variable `FIRECRAWL_API_KEY` to your obtained key.
+
+    **For Windows (Command Prompt):**
+    ```cmd
+    set FIRECRAWL_API_KEY=YOUR_API_KEY_HERE
+    ```
+    **For Linux/macOS (Bash/Zsh):**
+    ```bash
+    export FIRECRAWL_API_KEY=YOUR_API_KEY_HERE
+    ```
+
+4.  **Run the agent:**
 
     ```bash
     python -m src.main
@@ -41,12 +55,9 @@ The project is organized into the following directories:
 
 The research agent is currently in its initial phase of development. The following functionalities have been implemented:
 
--   **Hypothesis Generation:** The agent can generate a sample hypothesis.
+-   **Hypothesis Generation:** The agent can generate a hypothesis based on a given topic. It includes a placeholder for web content fetching using Firecrawl.dev (requires API key).
 -   **Experiment Design:** The agent can create a sample experiment design.
 -   **Data Analysis:** The agent can analyze a sample dataset and calculate the mean of a column.
 -   **Manuscript Generation:** The agent can generate a manuscript in Markdown format that summarizes the research findings.
 
 The agent is not yet capable of performing any real research. The current implementation is a proof of concept that demonstrates the basic workflow of the research agent. The next steps will be to replace the placeholder components with more sophisticated implementations that can perform the described tasks in a more realistic and autonomous way.
-=======
-This project is
->>>>>>> bc4c4ad91ac43114ea180c96a7adee9d4afb19a8
