@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Research Agent
 
 This project is a simplified implementation of a research agent based on the paper "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery". The agent is designed to automate the process of scientific discovery, from hypothesis generation to manuscript creation.
@@ -46,3 +47,6 @@ The research agent is currently in its initial phase of development. The followi
 -   **Manuscript Generation:** The agent can generate a manuscript in Markdown format that summarizes the research findings.
 
 The agent is not yet capable of performing any real research. The current implementation is a proof of concept that demonstrates the basic workflow of the research agent. The next steps will be to replace the placeholder components with more sophisticated implementations that can perform the described tasks in a more realistic and autonomous way.
+=======
+This project is
+>>>>>>> bc4c4ad91ac43114ea180c96a7adee9d4afb19a8
